@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Windows XP Style</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tahoma&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="desktop">
+        <!-- Desktop Icons -->
+        <div class="desktop-icon" data-window="about">
+            <img src="https://win98icons.alexmeub.com/icons/png/my_computer-4.png" alt="My Computer">
+            <span>About Me</span>
+        </div>
+        <div class="desktop-icon" data-window="projects">
+            <img src="https://win98icons.alexmeub.com/icons/png/directory_closed-4.png" alt="Projects">
+            <span>Projects</span>
+        </div>
+        <div class="desktop-icon" data-window="contact">
+            <img src="https://win98icons.alexmeub.com/icons/png/outlook_express-4.png" alt="Contact">
+            <span>Contact</span>
+        </div>
+        <div class="desktop-icon" data-window="books">
+            <img src="https://win98icons.alexmeub.com/icons/png/directory_closed-4.png" alt="Books">
+            <span>My Books</span>
+        </div>
+
+        <!-- Windows -->
+        <div class="window" id="about-window">
+            <div class="window-header">
+                <div class="window-title">About Me</div>
+                <div class="window-controls">
+                    <button class="minimize">_</button>
+                    <button class="maximize">□</button>
+                    <button class="close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>Welcome to My Portfolio!</h2>
+                <p>Hello! I'm [Your Name]. I'm a [Your Role] passionate about creating amazing digital experiences.</p>
+                <!-- Add more about yourself here -->
+            </div>
+        </div>
+
+        <div class="window" id="projects-window">
+            <div class="window-header">
+                <div class="window-title">My Projects</div>
+                <div class="window-controls">
+                    <button class="minimize">─</button>
+                    <button class="maximize">□</button>
+                    <button class="close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="folder-grid">
+                    <div class="folder-item" data-project="project1">
+                        <img src="https://win98icons.alexmeub.com/icons/png/directory_closed-4.png" alt="Project 1">
+                        <span>Project 1</span>
+                    </div>
+                    <div class="folder-item" data-project="project2">
+                        <img src="https://win98icons.alexmeub.com/icons/png/directory_closed-4.png" alt="Project 2">
+                        <span>Project 2</span>
+                    </div>
+                    <div class="folder-item" data-project="project3">
+                        <img src="https://win98icons.alexmeub.com/icons/png/directory_closed-4.png" alt="Project 3">
+                        <span>Project 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="window" id="books-window">
+            <div class="window-header">
+                <div class="window-title">My Books</div>
+                <div class="window-controls">
+                    <button class="minimize">─</button>
+                    <button class="maximize">□</button>
+                    <button class="close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="folder-grid">
+                    <div class="book-item">
+                        <img src="https://win98icons.alexmeub.com/icons/png/file_text-4.png" alt="Book 1">
+                        <span>Book 1</span>
+                    </div>
+                    <div class="book-item">
+                        <img src="https://win98icons.alexmeub.com/icons/png/file_text-4.png" alt="Book 2">
+                        <span>Book 2</span>
+                    </div>
+                    <div class="book-item">
+                        <img src="https://win98icons.alexmeub.com/icons/png/file_text-4.png" alt="Book 3">
+                        <span>Book 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="window" id="project1-window">
+            <div class="window-header">
+                <div class="window-title">Project 1</div>
+                <div class="window-controls">
+                    <button class="minimize">─</button>
+                    <button class="maximize">□</button>
+                    <button class="close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>Project 1 Title</h2>
+                <p>Project description goes here...</p>
+                <div class="project-links">
+                    <a href="#" class="xp-button">View Demo</a>
+                    <a href="#" class="xp-button">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="window" id="contact-window">
+            <div class="window-header">
+                <div class="window-title">Contact Me</div>
+                <div class="window-controls">
+                    <button class="minimize">_</button>
+                    <button class="maximize">□</button>
+                    <button class="close">×</button>
+                </div>
+            </div>
+            <div class="window-content">
+                <form id="contact-form">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <button type="submit" class="xp-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Menu -->
+    <div class="start-menu">
+        <div class="start-menu-header">
+            <img src="https://win98icons.alexmeub.com/icons/png/user-0.png" alt="User">
+            <span>User Name</span>
+        </div>
+        <div class="start-menu-items">
+            <div class="start-menu-item">
+                <img src="https://win98icons.alexmeub.com/icons/png/my_computer-0.png" alt="About">
+                <span>About Me</span>
+            </div>
+            <div class="start-menu-item">
+                <img src="https://win98icons.alexmeub.com/icons/png/directory_open_file_mydocs-0.png" alt="Projects">
+                <span>My Projects</span>
+            </div>
+            <div class="start-menu-item">
+                <img src="https://win98icons.alexmeub.com/icons/png/directory_closed-0.png" alt="Books">
+                <span>My Books</span>
+            </div>
+            <div class="start-menu-item">
+                <img src="https://win98icons.alexmeub.com/icons/png/outlook_express-0.png" alt="Contact">
+                <span>Contact Me</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Taskbar -->
+    <div class="taskbar">
+        <button class="start-button">
+            <img src="https://win98icons.alexmeub.com/icons/png/windows-0.png" alt="Start">
+            Start
+        </button>
+        <div class="taskbar-items"></div>
+        <div class="system-tray">
+            <span class="clock"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
